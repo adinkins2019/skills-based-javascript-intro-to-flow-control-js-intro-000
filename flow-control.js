@@ -29,7 +29,14 @@ return ((age >=13)&& (age <=19))? "You are a teenager": "You are not a teenager"
 function switchAge(age) {
   let ageString = "";
   switch (age){
-
+    case 13: ageString = "You are a teenager";break;
+    case 14: ageString = "You are a teenager";break;
+    case 15: ageString = "You are a teenager";break;
+    case 16: ageString = "You are a teenager";break;
+    case 17: ageString = "You are a teenager";break;
+    case 18: ageString = "You are a teenager";break;
+    case 19: ageString = "You are a teenager";break;
+    default: ageString = "You are a age";
   }
   return ageString;
 }
