@@ -32,7 +32,7 @@ function switchAge(age) {
     case 13, 14, 15, 16, 17, 18, 19:
       ageString = "You are a teenager";
       break;
-    default: 
+    default:
       ageString = "You are an age";
       break;
   }
