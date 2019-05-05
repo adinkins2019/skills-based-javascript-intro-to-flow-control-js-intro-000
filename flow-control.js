@@ -36,7 +36,7 @@ function switchAge(age) {
     case 17: ageString = "You are a teenager";break;
     case 18: ageString = "You are a teenager";break;
     case 19: ageString = "You are a teenager";break;
-    default: ageString = "You are a age";
+    default: ageString = "You are an age";
   }
   return ageString;
 }
